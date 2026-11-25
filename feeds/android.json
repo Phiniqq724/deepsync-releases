@@ -1,12 +1,12 @@
 {
   "staging": {
-    "versionCode": 134,
+    "versionCode": 142,
     "versionName": "0.1.0",
-    "url": "https://github.com/Phiniqq724/deepsync-releases/releases/download/v0.1.0-staging.3/Deepsync-0.1.0-134.apk",
-    "sha256": "e90aae8d50ca7235b9af1addb0a90f0e67a4649a34386e911a69f3a0e0801827",
-    "size": 81002216,
-    "notes": "**Staging build** (a release build that may still have bugs).\n\n### New: updates inside the app\nThis is the last version you install by hand. From now on:\n- **Mac:** Deepsync checks for updates by itself. You can also use menu bar icon \u203a right-click \u203a **Check for Updates\u2026**, or Settings \u203a Updates.\n- **Android:** Settings \u203a **Updates** \u203a Check for updates. A notification and a Home banner appear when a new version is out. The first update asks you to allow \"Install unknown apps\" for Deepsync once.\n- Staging builds get staging updates. Turn off **Get beta (staging) updates** to only get full releases.\n\n### Install\n**Mac** (Apple silicon, macOS 26+): open the DMG and drag Deepsync into Applications. On first open: System Settings \u203a Privacy & Security \u203a **Open Anyway**.\n\n**Android** (Android 12+): Play Protect blocks apps that read notifications when they don't come from the Play Store. Turn off Play Store \u203a profile \u203a Play Protect \u203a \u2699\ufe0f \u203a **Scan apps with Play Protect**, install the APK, then turn it back on. If Notification access is greyed out: Settings \u203a Apps \u203a Deepsync \u203a \u22ee \u203a **Allow restricted settings**.\n\nPair: Mac \u203a Deepsync \u203a Pair phone, then phone \u203a Scan QR code.\n",
+    "url": "https://github.com/Phiniqq724/deepsync-releases/releases/download/v0.1.0-staging.4/Deepsync-0.1.0-142.apk",
+    "sha256": "59df9fee8588dd21a5f76fbfc78249531a263bac312bb7f65b5c6569375961a7",
+    "size": 81068568,
+    "notes": "**Staging build** (a release build that may still have bugs).\n\n### New: control whatever is playing on the Mac\n- One **Playing on Mac** card for any app (Spotify, YouTube in Safari or Chrome, podcasts, Apple Music), with the app's name on it.\n- When an app can't skip tracks (most browsers), **\u221210 s / +10 s** replace previous/next.\n- Apple Music keeps lyrics. The Mac sound card is now just volume and output.\n- The phone's media controls (notification and lock screen) follow the same app.\n\n### Fixes\n- Android 12: the in-app updater no longer crashes when Android asks to confirm the update.\n- Release notes in the update screen are formatted properly.\n\n### Updating\n- **From staging 3:** use the in-app update (Mac: menu bar \u203a Check for Updates\u2026; Android: Settings \u203a Updates).\n- **From older builds, or on Android 12:** install this one by hand, once.\n",
     "minSdk": 31,
-    "publishedAt": "2026-11-25T04:22:11Z"
+    "publishedAt": "2026-11-25T04:51:59Z"
   }
 }

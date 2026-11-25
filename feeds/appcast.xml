@@ -3,6 +3,31 @@
   <channel>
     <title>Deepsync</title>
     <item>
+      <title>Deepsync 0.1.0 (v0.1.0-staging.4)</title>
+      <pubDate>Wed, 25 Nov 2026 04:52:00 +0000</pubDate>
+      <sparkle:version>142</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:channel>staging</sparkle:channel>
+      <description><![CDATA[<pre>**Staging build** (a release build that may still have bugs).
+
+### New: control whatever is playing on the Mac
+- One **Playing on Mac** card for any app (Spotify, YouTube in Safari or Chrome, podcasts, Apple Music), with the app&#x27;s name on it.
+- When an app can&#x27;t skip tracks (most browsers), **−10 s / +10 s** replace previous/next.
+- Apple Music keeps lyrics. The Mac sound card is now just volume and output.
+- The phone&#x27;s media controls (notification and lock screen) follow the same app.
+
+### Fixes
+- Android 12: the in-app updater no longer crashes when Android asks to confirm the update.
+- Release notes in the update screen are formatted properly.
+
+### Updating
+- **From staging 3:** use the in-app update (Mac: menu bar › Check for Updates…; Android: Settings › Updates).
+- **From older builds, or on Android 12:** install this one by hand, once.
+</pre>]]></description>
+      <enclosure url="https://github.com/Phiniqq724/deepsync-releases/releases/download/v0.1.0-staging.4/Deepsync-0.1.0-142.dmg" type="application/x-apple-diskimage" sparkle:edSignature="mXNu02dyXX9Mc0ZdHJ07XAedZ39+sJAvXuQEX5Ub89pariUXadycIAlB3tIdLpIY+6eRDT8PajoqDaL8+ycvAA==" length="6178628"/>
+    </item>
+    <item>
       <title>Deepsync 0.1.0 (v0.1.0-staging.3)</title>
       <pubDate>Wed, 25 Nov 2026 04:22:12 +0000</pubDate>
       <sparkle:version>134</sparkle:version>
