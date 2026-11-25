@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Deepsync</title>
+    <item>
+      <title>Deepsync 0.1.0 (v0.1.0-staging.3)</title>
+      <pubDate>Wed, 25 Nov 2026 04:22:12 +0000</pubDate>
+      <sparkle:version>134</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:channel>staging</sparkle:channel>
+      <description><![CDATA[<pre>**Staging build** (a release build that may still have bugs).
+
+### New: updates inside the app
+This is the last version you install by hand. From now on:
+- **Mac:** Deepsync checks for updates by itself. You can also use menu bar icon › right-click › **Check for Updates…**, or Settings › Updates.
+- **Android:** Settings › **Updates** › Check for updates. A notification and a Home banner appear when a new version is out. The first update asks you to allow &quot;Install unknown apps&quot; for Deepsync once.
+- Staging builds get staging updates. Turn off **Get beta (staging) updates** to only get full releases.
+
+### Install
+**Mac** (Apple silicon, macOS 26+): open the DMG and drag Deepsync into Applications. On first open: System Settings › Privacy &amp; Security › **Open Anyway**.
+
+**Android** (Android 12+): Play Protect blocks apps that read notifications when they don&#x27;t come from the Play Store. Turn off Play Store › profile › Play Protect › ⚙️ › **Scan apps with Play Protect**, install the APK, then turn it back on. If Notification access is greyed out: Settings › Apps › Deepsync › ⋮ › **Allow restricted settings**.
+
+Pair: Mac › Deepsync › Pair phone, then phone › Scan QR code.
+</pre>]]></description>
+      <enclosure url="https://github.com/Phiniqq724/deepsync-releases/releases/download/v0.1.0-staging.3/Deepsync-0.1.0-134.dmg" type="application/x-apple-diskimage" sparkle:edSignature="uzX3g9yX5hWadDEWW1uy+3Usm6DTIIUl77w76uPviIk+FfXrUKbLwYYEDVlNT4UABP2voWebt1l0UHxBneX+Dg==" length="6047296"/>
+    </item>
+  </channel>
+</rss>
