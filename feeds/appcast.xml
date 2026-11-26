@@ -3,6 +3,59 @@
   <channel>
     <title>Deepsync</title>
     <item>
+      <title>Deepsync 0.1.0 (v0.1.0-staging.6)</title>
+      <pubDate>Thu, 26 Nov 2026 16:16:30 +0000</pubDate>
+      <sparkle:version>225</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:channel>staging</sparkle:channel>
+      <description><![CDATA[<pre>**Nightly build**: a release build that may still have bugs.
+
+### Changes
+- Unlock approval: shorter warning
+- Unlock approval: two short lines instead of a paragraph
+- Mac: a one-time What&#x27;s New screen about the main window
+- Mac: choose where received files are saved
+- Mac: drop the window button from the popover header
+- Unlock setup: the Mac confirms the phone&#x27;s code itself
+- Mac audio on the phone without the driver, chosen like any output
+- Mac: a receiving shelf that slides out like the send shelf
+- Phone: the Lock tile becomes Set up unlock until the Mac approves the key
+- Mac: remove the Now Playing card from Overview
+- Phone: remove the &quot;Playing Mac audio&quot; card from Home
+- Mac: receiving animation and drag received files out (#16)
+- Replace &quot;Listen on Phone&quot; with Phone as Speaker, a real Mac sound output
+- Screen streaming: drop sRGB capture conversion, force refresh rate only when needed
+- macOS: move popover settings to main window, fix bundle icon metadata, and tone down notification icon attachment
+- One Lock/Unlock button on the phone, plus Home and notification fixes
+- Flush transfer history once at quit
+- Optimize Listen on Phone audio pipeline, battery usage, and error handling
+- Fix macOS main window, onboarding, and transfer history performance findings
+- Integration fixes after merging the backlog PRs
+- Unlock from phone: harden after review
+- Android: fall back to other icon sources for mirrored notifications
+- Android: don&#x27;t blame the Mac&#x27;s version when listen on phone gets no answer
+- Listen on phone: play the Mac&#x27;s audio through the paired phone (#3)
+- Docs: correct the authorization plug-in and lock-state sources
+- macOS: connect the main window with presence settings, fix review findings
+- Unlock the Mac from the phone (experimental, off by default)
+- Rename the beta channel to Nightly, with a purple icon and its own app name
+- Start Extend from the phone with an &quot;Extend Mac&quot; tile (#4)
+- Android: add a Disconnect button that stays disconnected until Connect (#11)
+- Screen streaming: even frame pacing, tagged colours, matched refresh rate
+- macOS: first-launch onboarding and menu bar / Dock presence (#19)
+- macOS: full app window with persistent transfer history (#18)
+- Mac: let Apple Music or Spotify take priority on the media card
+- Mac: per-app notification click actions (#2)
+- Phone scroll: post trackpad-style phased scroll gestures on the Mac (#9)
+- Shorten the Updates section descriptions
+- Forward headset media buttons from the Mac volume session to the Mac
+- Media-button pulse: play right away, also with the phone locked
+- Android: repost the media notification only when it visibly changes (#13)
+</pre>]]></description>
+      <enclosure url="https://github.com/Phiniqq724/deepsync-releases/releases/download/v0.1.0-staging.6/Deepsync-0.1.0-225.dmg" type="application/x-apple-diskimage" sparkle:edSignature="XlSTdSC26IGlW2it3dy0KdcE6uq2rV09/aFZl5QW4jAyVcTOB80tcAy6j8ky+PgoBUJy1ul9DjiAvZ6NfydlAg==" length="6819117"/>
+    </item>
+    <item>
       <title>Deepsync 0.1.0 (v0.1.0-staging.5)</title>
       <pubDate>Thu, 26 Nov 2026 00:27:58 +0000</pubDate>
       <sparkle:version>153</sparkle:version>
