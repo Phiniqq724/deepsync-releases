@@ -3,6 +3,36 @@
   <channel>
     <title>Deepsync</title>
     <item>
+      <title>Deepsync 0.1.0 (v0.1.0-staging.7)</title>
+      <pubDate>Thu, 26 Nov 2026 23:50:12 +0000</pubDate>
+      <sparkle:version>245</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:channel>staging</sparkle:channel>
+      <description><![CDATA[<pre>**Nightly build**: a release build that may still have bugs.
+
+### Fixes
+- Mac and phone music no longer pause each other: while another app plays on the phone, the Mac&#x27;s card steps back and the Mac keeps playing (#33)
+- Switching the Mac&#x27;s sound from the audio driver to &quot;phone&quot; or &quot;Mac and phone&quot; no longer gives garbled, phone-only audio (#32)
+- Back on Wi-Fi after Tailscale while Mac audio is playing, the phone now moves to the faster Wi-Fi connection
+- Opening Deepsync no longer asks for the Mac password when Unlock from Phone is on
+- Unlock from Phone after an update: unlock with your password once and allow Deepsync, instead of a prompt nobody can answer at the lock screen
+- Copying big images no longer freezes the app on the phone or the Mac
+- A burst of phone notifications no longer stalls the Mac menu bar
+
+### Security
+- Phone remote control only starts after you approve mirroring
+- Only adb can open the phone&#x27;s USB screen-share screens
+- Safer app updater downloads
+- Limits on incoming folder transfers
+- Bluetooth fallback no longer drops healthy connections on network changes
+
+### Smaller
+- Less idle battery and CPU use (Mac Bluetooth, USB screen-share frames)
+</pre>]]></description>
+      <enclosure url="https://github.com/Phiniqq724/deepsync-releases/releases/download/v0.1.0-staging.7/Deepsync-0.1.0-245.dmg" type="application/x-apple-diskimage" sparkle:edSignature="gWoBlI6v4QLZKz34/lk0L8cvzL0mkA0NefVY7Y6jMUmCHD/Juq5u9x2W2zKJ7iUvdfLAJglvp6PRw2NMW0Q4DQ==" length="6845878"/>
+    </item>
+    <item>
       <title>Deepsync 0.1.0 (v0.1.0-staging.6)</title>
       <pubDate>Thu, 26 Nov 2026 16:16:30 +0000</pubDate>
       <sparkle:version>225</sparkle:version>
