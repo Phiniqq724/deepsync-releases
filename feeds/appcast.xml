@@ -3,6 +3,27 @@
   <channel>
     <title>Deepsync</title>
     <item>
+      <title>Deepsync 0.1.0 (v0.1.0-staging.5)</title>
+      <pubDate>Thu, 26 Nov 2026 00:27:58 +0000</pubDate>
+      <sparkle:version>153</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:channel>staging</sparkle:channel>
+      <description><![CDATA[<pre>**Staging build**: a release build that may still have bugs.
+
+### Changes
+- Make the HyperOS volume-panel Mac slider experimental and off by default
+- Fix QR pairing in release builds: keep ML Kit component registrars
+- Fix cold-start crash: declare media-session sync lock before init
+- Android: send screen/Wi-Fi power state to the core; drop core debug logs in release
+- core: power-aware reconnect, LAN probe, mDNS browser and logging (phone battery/data)
+- build(android): enable R8, arm64 release ABI filter, en locale filter, work-runtime 2.11.2, and stripped LTO Rust Android profile
+- Android: cut background battery/CPU/RAM work
+- Mac: refuse to run a second copy (it would take a random port and the phone could not find it)
+</pre>]]></description>
+      <enclosure url="https://github.com/Phiniqq724/deepsync-releases/releases/download/v0.1.0-staging.5/Deepsync-0.1.0-153.dmg" type="application/x-apple-diskimage" sparkle:edSignature="uqjonCPeL6ARH6E4ROUK5/DHKD4d6247lOY1JmiOmvDYQCDo7utta8N5BrhX7zwySVQBDMWOQiqiy12shp4/Bw==" length="6185739"/>
+    </item>
+    <item>
       <title>Deepsync 0.1.0 (v0.1.0-staging.4)</title>
       <pubDate>Wed, 25 Nov 2026 04:52:00 +0000</pubDate>
       <sparkle:version>142</sparkle:version>

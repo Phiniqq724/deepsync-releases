@@ -1,12 +1,12 @@
 {
   "staging": {
-    "versionCode": 142,
+    "versionCode": 153,
     "versionName": "0.1.0",
-    "url": "https://github.com/Phiniqq724/deepsync-releases/releases/download/v0.1.0-staging.4/Deepsync-0.1.0-142.apk",
-    "sha256": "59df9fee8588dd21a5f76fbfc78249531a263bac312bb7f65b5c6569375961a7",
-    "size": 81068568,
-    "notes": "**Staging build** (a release build that may still have bugs).\n\n### New: control whatever is playing on the Mac\n- One **Playing on Mac** card for any app (Spotify, YouTube in Safari or Chrome, podcasts, Apple Music), with the app's name on it.\n- When an app can't skip tracks (most browsers), **\u221210 s / +10 s** replace previous/next.\n- Apple Music keeps lyrics. The Mac sound card is now just volume and output.\n- The phone's media controls (notification and lock screen) follow the same app.\n\n### Fixes\n- Android 12: the in-app updater no longer crashes when Android asks to confirm the update.\n- Release notes in the update screen are formatted properly.\n\n### Updating\n- **From staging 3:** use the in-app update (Mac: menu bar \u203a Check for Updates\u2026; Android: Settings \u203a Updates).\n- **From older builds, or on Android 12:** install this one by hand, once.\n",
+    "url": "https://github.com/Phiniqq724/deepsync-releases/releases/download/v0.1.0-staging.5/Deepsync-0.1.0-153.apk",
+    "sha256": "9dfef6d01b8579c9483b54e59da8f6421ba241cd7d1609fcac4e07f552f5cc0b",
+    "size": 11890898,
+    "notes": "**Staging build**: a release build that may still have bugs.\n\n### Changes\n- Make the HyperOS volume-panel Mac slider experimental and off by default\n- Fix QR pairing in release builds: keep ML Kit component registrars\n- Fix cold-start crash: declare media-session sync lock before init\n- Android: send screen/Wi-Fi power state to the core; drop core debug logs in release\n- core: power-aware reconnect, LAN probe, mDNS browser and logging (phone battery/data)\n- build(android): enable R8, arm64 release ABI filter, en locale filter, work-runtime 2.11.2, and stripped LTO Rust Android profile\n- Android: cut background battery/CPU/RAM work\n- Mac: refuse to run a second copy (it would take a random port and the phone could not find it)\n",
     "minSdk": 31,
-    "publishedAt": "2026-11-25T04:51:59Z"
+    "publishedAt": "2026-11-26T00:27:57Z"
   }
 }
