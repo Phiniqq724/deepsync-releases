@@ -1,12 +1,12 @@
 {
   "staging": {
-    "versionCode": 245,
+    "versionCode": 249,
     "versionName": "0.1.0",
-    "url": "https://github.com/Phiniqq724/deepsync-releases/releases/download/v0.1.0-staging.7/Deepsync-0.1.0-245.apk",
-    "sha256": "dba35832026a2473171d81b7cbf4c938ef65f84547406ca19201030b0c612a39",
-    "size": 12041958,
-    "notes": "**Nightly build**: a release build that may still have bugs.\n\n### Fixes\n- Mac and phone music no longer pause each other: while another app plays on the phone, the Mac's card steps back and the Mac keeps playing (#33)\n- Switching the Mac's sound from the audio driver to \"phone\" or \"Mac and phone\" no longer gives garbled, phone-only audio (#32)\n- Back on Wi-Fi after Tailscale while Mac audio is playing, the phone now moves to the faster Wi-Fi connection\n- Opening Deepsync no longer asks for the Mac password when Unlock from Phone is on\n- Unlock from Phone after an update: unlock with your password once and allow Deepsync, instead of a prompt nobody can answer at the lock screen\n- Copying big images no longer freezes the app on the phone or the Mac\n- A burst of phone notifications no longer stalls the Mac menu bar\n\n### Security\n- Phone remote control only starts after you approve mirroring\n- Only adb can open the phone's USB screen-share screens\n- Safer app updater downloads\n- Limits on incoming folder transfers\n- Bluetooth fallback no longer drops healthy connections on network changes\n\n### Smaller\n- Less idle battery and CPU use (Mac Bluetooth, USB screen-share frames)\n",
+    "url": "https://github.com/Phiniqq724/deepsync-releases/releases/download/v0.1.0-staging.8/Deepsync-0.1.0-249.apk",
+    "sha256": "3886b14c7f8086cf91e3d9737daf3c7c01df8610c295310d059e21e55a1ca3da",
+    "size": 12042430,
+    "notes": "**Nightly build**: a release build that may still have bugs.\n\n### Fixes\n- Future versions stay connected even when the phone and the Mac run different Deepsync versions: a message one app doesn't know is skipped instead of dropping the connection\n- The Mac and the phone say when the other one should be updated\n- Phone: the \"update available\" reminder comes back a day after you dismiss it, as a notification or when you open the app\n\n### Note\n- A phone on staging 5 can't stay connected to a Mac on staging 6 or newer. Update the phone app.\n",
     "minSdk": 31,
-    "publishedAt": "2026-11-26T23:50:11Z"
+    "publishedAt": "2026-11-27T00:27:04Z"
   }
 }

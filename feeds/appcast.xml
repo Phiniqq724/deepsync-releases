@@ -3,6 +3,25 @@
   <channel>
     <title>Deepsync</title>
     <item>
+      <title>Deepsync 0.1.0 (v0.1.0-staging.8)</title>
+      <pubDate>Fri, 27 Nov 2026 00:27:05 +0000</pubDate>
+      <sparkle:version>249</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:channel>staging</sparkle:channel>
+      <description><![CDATA[<pre>**Nightly build**: a release build that may still have bugs.
+
+### Fixes
+- Future versions stay connected even when the phone and the Mac run different Deepsync versions: a message one app doesn&#x27;t know is skipped instead of dropping the connection
+- The Mac and the phone say when the other one should be updated
+- Phone: the &quot;update available&quot; reminder comes back a day after you dismiss it, as a notification or when you open the app
+
+### Note
+- A phone on staging 5 can&#x27;t stay connected to a Mac on staging 6 or newer. Update the phone app.
+</pre>]]></description>
+      <enclosure url="https://github.com/Phiniqq724/deepsync-releases/releases/download/v0.1.0-staging.8/Deepsync-0.1.0-249.dmg" type="application/x-apple-diskimage" sparkle:edSignature="VXjbM+660iUDPvraTZdup8+3gkR11gvjFibojFOAuVIBvMyoNGgU6/HyqrGUURNs1CPR/PqNXMLK6Go7ICLiAQ==" length="6851204"/>
+    </item>
+    <item>
       <title>Deepsync 0.1.0 (v0.1.0-staging.7)</title>
       <pubDate>Thu, 26 Nov 2026 23:50:12 +0000</pubDate>
       <sparkle:version>245</sparkle:version>
