@@ -1,12 +1,12 @@
 {
   "staging": {
-    "versionCode": 249,
+    "versionCode": 251,
     "versionName": "0.1.0",
-    "url": "https://github.com/Phiniqq724/deepsync-releases/releases/download/v0.1.0-staging.8/Deepsync-0.1.0-249.apk",
-    "sha256": "3886b14c7f8086cf91e3d9737daf3c7c01df8610c295310d059e21e55a1ca3da",
+    "url": "https://github.com/Phiniqq724/deepsync-releases/releases/download/v0.1.0-staging.9/Deepsync-0.1.0-251.apk",
+    "sha256": "ee13bde723334f682cb353a65dbcd6c5f59a7acad5bc16d6364da562e87b79cb",
     "size": 12042430,
-    "notes": "**Nightly build**: a release build that may still have bugs.\n\n### Fixes\n- Future versions stay connected even when the phone and the Mac run different Deepsync versions: a message one app doesn't know is skipped instead of dropping the connection\n- The Mac and the phone say when the other one should be updated\n- Phone: the \"update available\" reminder comes back a day after you dismiss it, as a notification or when you open the app\n\n### Note\n- A phone on staging 5 can't stay connected to a Mac on staging 6 or newer. Update the phone app.\n",
+    "notes": "**Nightly build**: a release build that may still have bugs.\n\n### Fixes\n- Mac: a phone on an older Deepsync (staging 5) no longer disconnects and reconnects over and over. After one drop, the Mac stops sending what that phone can't read, so it stays connected, and shows a note to update the phone app\n",
     "minSdk": 31,
-    "publishedAt": "2026-11-27T00:27:04Z"
+    "publishedAt": "2026-11-27T00:39:40Z"
   }
 }

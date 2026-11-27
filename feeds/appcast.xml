@@ -3,6 +3,20 @@
   <channel>
     <title>Deepsync</title>
     <item>
+      <title>Deepsync 0.1.0 (v0.1.0-staging.9)</title>
+      <pubDate>Fri, 27 Nov 2026 00:39:41 +0000</pubDate>
+      <sparkle:version>251</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:channel>staging</sparkle:channel>
+      <description><![CDATA[<pre>**Nightly build**: a release build that may still have bugs.
+
+### Fixes
+- Mac: a phone on an older Deepsync (staging 5) no longer disconnects and reconnects over and over. After one drop, the Mac stops sending what that phone can&#x27;t read, so it stays connected, and shows a note to update the phone app
+</pre>]]></description>
+      <enclosure url="https://github.com/Phiniqq724/deepsync-releases/releases/download/v0.1.0-staging.9/Deepsync-0.1.0-251.dmg" type="application/x-apple-diskimage" sparkle:edSignature="oE9Lzq4NuLCAjKu2r/gxqlDCpIsx9WNKQft/hqkQTwlGdtzTavqfUl74Vhl/25x1B8cPkmoR6J0CCI/XHwXbCw==" length="6851684"/>
+    </item>
+    <item>
       <title>Deepsync 0.1.0 (v0.1.0-staging.8)</title>
       <pubDate>Fri, 27 Nov 2026 00:27:05 +0000</pubDate>
       <sparkle:version>249</sparkle:version>
